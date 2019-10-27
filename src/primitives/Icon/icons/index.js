@@ -1,7 +1,7 @@
 export { default as External } from './External';
 export { default as GitHub } from './GitHub';
 export { default as Icon } from './Icon';
-export { default as Info } from './Info';
+export { default as Resume } from './Resume';
 export { default as LinkedIn } from './LinkedIn';
 export { default as Moon } from './Moon';
 export { default as Rocket } from './Rocket';

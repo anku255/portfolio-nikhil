@@ -39,7 +39,6 @@ export const HeaderElement = styled.header`
     text-decoration: none;
 
     svg {
-      border: 1px solid var(--primary);
       border-radius: 50%;
       fill: var(--primary);
       margin-right: 1rem;

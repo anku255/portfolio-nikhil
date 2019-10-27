@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Icon, Link, ThemeToggle } from 'src/components';
 import { github, twitter, linkedin } from 'src/links';
@@ -15,16 +15,12 @@ const Header = ({ activePage, footerIsVisible, siteTitle }) => (
       </Link>
       <Space />
       <SubNav footerIsVisible={footerIsVisible}>
-        <NavLink active={activePage === 'blog'} to="/blog">
-          <Icon name="Speech" />
-          <span>Blog</span>
-        </NavLink>
         <NavLink active={activePage === 'projects'} to="/projects">
           <Icon name="Rocket" />
           <span>Projects</span>
         </NavLink>
         <NavLink active={activePage === 'resume'} to="/resume">
-          <Icon name="Info" />
+          <Icon name="Resume" />
           <span>Resume</span>
         </NavLink>
         <NavLink to={github}>

@@ -49,8 +49,8 @@ module.exports = {
         name: `Raptori`,
         short_name: `Raptori`,
         start_url: `/`,
-        background_color: `#43b9b7`,
-        theme_color: `#43b9b7`,
+        background_color: `#2795c4`,
+        theme_color: `#2795c4`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`
       }

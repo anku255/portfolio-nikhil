@@ -12,11 +12,6 @@ const StyledLink = styled(Link)`
   padding: 1rem;
   position: relative;
   text-decoration: none;
-  /* > :last-child {
-    align-items: flex-end;
-    display: flex;
-    flex: 1 1 100%;
-  } */
   ${props =>
     !props.inFooter
       ? `
@@ -83,7 +78,7 @@ const ProjectLink = ({ title, subtitle, image, link, featured, inFooter }) => (
     inFooter={inFooter}
     to={link}
   >
-    <QueryImage name={image} width={300} />
+    <QueryImage name={image} />
     <h4>{title}</h4>
     {subtitle ? <p>{subtitle}</p> : null}
   </StyledLink>

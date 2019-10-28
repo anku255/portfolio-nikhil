@@ -7,3 +7,5 @@ export { default as SEO } from './SEO';
 export { default as ThemeToggle } from './ThemeToggle';
 export { default as Waves } from './Waves';
 export { default as WaveSection } from './WaveSection';
+export { default as ProjectGrid } from './ProjectGrid';
+export { default as ProjectLink } from './ProjectLink';

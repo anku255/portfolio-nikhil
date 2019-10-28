@@ -1,5 +1,41 @@
 import React from 'react';
-import { Layout, Link, SEO, WaveSection } from 'src/components';
+import styled from 'styled-components';
+import {
+  Layout,
+  Link,
+  SEO,
+  WaveSection,
+  ProjectGrid,
+  ProjectLink
+} from 'src/components';
+
+const H3 = styled.h3`
+  margin-top: 0;
+`;
+
+const projects = [
+  {
+    title: 'Project 1',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus! Lorem ipsum dolor sit.',
+    image: 'harmony',
+    link: 'http://test.me'
+  },
+  {
+    title: 'Project 2',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eaque!',
+    image: 'refract',
+    link: 'http://test.me'
+  },
+  {
+    title: 'Project 3',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nihil!',
+    image: 'refract',
+    link: 'http://test.me'
+  }
+];
 
 const IndexPage = () => {
   return (
@@ -15,11 +51,7 @@ const IndexPage = () => {
         </p>
         <br />
         <p>
-          <Link to="/blog" button>
-            All Posts
-          </Link>
-          &nbsp;
-          <Link to="/projects" secondary button>
+          <Link to="/projects" button>
             Projects
           </Link>
           &nbsp;
@@ -28,6 +60,15 @@ const IndexPage = () => {
           </Link>
         </p>
       </WaveSection>
+
+      <>
+        <H3>Featured Projects</H3>
+        <ProjectGrid>
+          {projects.map((project, i) => (
+            <ProjectLink key={i} featured={i === 0} {...project} />
+          ))}
+        </ProjectGrid>
+      </>
     </Layout>
   );
 };

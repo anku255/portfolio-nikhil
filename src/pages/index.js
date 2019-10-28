@@ -15,25 +15,25 @@ const H3 = styled.h3`
 
 const projects = [
   {
-    title: 'Project 1',
+    title: 'MusicGen',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus! Lorem ipsum dolor sit.',
-    image: 'harmony',
-    link: 'http://test.me'
+      'Generate music in ABC format using Character-Wise Recurrent Neural Network',
+    image: 'musicgen',
+    link: 'https://github.com/nj2610/MusicGen'
   },
   {
-    title: 'Project 2',
+    title: 'IC detection from Printed Circuit Board',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eaque!',
-    image: 'refract',
-    link: 'http://test.me'
+      'Located and Extracted all of the Integrated Circuits (ICs) present in the image of Printed Circuit Board',
+    image: 'ic-board',
+    link: 'https://github.com/nj2610/IC_Recognition'
   },
   {
-    title: 'Project 3',
+    title: 'Sentiment Analysis',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nihil!',
-    image: 'refract',
-    link: 'http://test.me'
+      'Performed Sentiment Analysis on the Imdb movie review dataset using RNNs',
+    image: 'reviews',
+    link: 'https://github.com/nj2610/IC_Recognition.'
   }
 ];
 
@@ -44,10 +44,9 @@ const IndexPage = () => {
       <WaveSection>
         <h1 className="intro-title">Hello!</h1>
         <p>
-          I'm Joe McGrath, a software engineer with a background in design,
-          currently working at <Link to="https://webflow.com/">Webflow</Link>. I
-          build highly scaleable web apps, contribute to open source, and write
-          fiction in my spare time!
+          I'm Nikhil Kumar Jha, a Machine Learning and Deep Learning enthusiast
+          with a background in Computer Science. I build highly scaleable web
+          apps, contribute to open source, and write fiction in my spare time!
         </p>
         <br />
         <p>
@@ -55,7 +54,7 @@ const IndexPage = () => {
             Projects
           </Link>
           &nbsp;
-          <Link to="/joe-mcgrath-resume.pdf" external secondary button>
+          <Link to="/nikhil-kumar-jha-resume.pdf" external secondary button>
             Download Resume
           </Link>
         </p>

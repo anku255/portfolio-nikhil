@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Icon, Link } from 'src/components';
-
 const Wrapper = styled.footer`
   color: var(--dark);
 `;
@@ -21,12 +19,7 @@ const year = new Date().getFullYear();
 
 const Footer = () => (
   <Wrapper>
-    <Text>
-      Copyright {year} Joe McGrath •{' '}
-      <Link to="https://github.com/thisRaptori/raptori">
-        View source code <Icon name="GitHub" />
-      </Link>
-    </Text>
+    <Text>• Copyright {year} Nikhil Kumar Jha • </Text>
   </Wrapper>
 );
 

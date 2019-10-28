@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Raptori`,
-    description: `Joe McGrath - Portfolio`,
-    author: `@thisRaptori`,
-    url: `https://raptori.dev`
+    title: `Nikhil Kumar Jha`,
+    description: `Nikhil Kumar Jha - Portfolio`,
+    author: `@nj2510`,
+    url: ``
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Raptori`,
-        short_name: `Raptori`,
+        name: `Nikhil Kumar Jha`,
+        short_name: `NKJ`,
         start_url: `/`,
         background_color: `#1499d6`,
         theme_color: `#1499d6`,

@@ -62,10 +62,16 @@ export const NavLink = styled(Link)`
 
   ${props => (props.active ? 'color: var(--secondary) !important;' : '')}
 
+  &:hover {
+    span {
+      display: inline;
+    }
+  }
   span {
     font-size: 13px;
     line-height: 1;
     padding-top: calc(var(--header-padding) / 4);
+    display: none;
   }
 `;
 

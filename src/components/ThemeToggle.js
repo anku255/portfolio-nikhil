@@ -13,10 +13,17 @@ const Button = styled.button`
   width: calc(3 * var(--header-padding));
   color: var(--secondary);
 
+  &:hover {
+    span {
+      display: inline;
+    }
+  }
+
   span {
     font-size: 13px;
     line-height: 1;
     padding-top: calc(var(--header-padding) / 4);
+    display: none;
   }
 `;
 

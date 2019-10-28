@@ -55,8 +55,8 @@ const IndexPage = () => {
             Projects
           </Link>
           &nbsp;
-          <Link to="/resume" secondary button>
-            Resume
+          <Link to="/joe-mcgrath-resume.pdf" external secondary button>
+            Download Resume
           </Link>
         </p>
       </WaveSection>

@@ -49,16 +49,10 @@ module.exports = {
         name: `Raptori`,
         short_name: `Raptori`,
         start_url: `/`,
-        background_color: `#2795c4`,
-        theme_color: `#2795c4`,
+        background_color: `#1499d6`,
+        theme_color: `#1499d6`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`
-      }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-140200159-1'
       }
     }
   ]

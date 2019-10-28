@@ -5,7 +5,7 @@ import { Clip, Gradient, Wave, Waves as Wrapper } from './styles';
 
 const Waves = ({ invert, offset }) => {
   const [isDark] = useRaptoriTheme();
-  const fill = isDark ? '#2691BF' : '#217DA5';
+  const fill = isDark ? '#6acbfa' : '#37bcfc';
 
   return (
     <Wrapper className="background transition" invert={invert}>

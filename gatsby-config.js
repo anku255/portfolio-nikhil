@@ -31,13 +31,6 @@ module.exports = {
               linkImagesToOriginal: false
             }
           },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              aliases: { js: 'javascript', html: 'markup' },
-              noInlineHighlight: true
-            }
-          },
           `gatsby-remark-smartypants`
         ]
       }
@@ -53,6 +46,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/icon.png`
       }
-    }
+    },
+    `gatsby-plugin-offline`
   ]
 };

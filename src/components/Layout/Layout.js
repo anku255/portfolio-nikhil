@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import 'minireset.css';
 import '../../styles.css';
-import '../../prism-theme.css';
 
 import { Footer, Header, WaveSection } from 'src/components';
 import { useIsVisible } from 'src/hooks';

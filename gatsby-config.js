@@ -3,13 +3,12 @@ module.exports = {
     title: `Nikhil Kumar Jha`,
     description: `Nikhil Kumar Jha - Portfolio`,
     author: `@nj2510`,
-    url: ``
+    url: `https://nikhilkumarjha.netlify.com`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-root-import`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-remark-reading-time`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

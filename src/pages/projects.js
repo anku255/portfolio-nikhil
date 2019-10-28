@@ -35,36 +35,16 @@ const ProjectsPage = () => (
           <QueryImage name="musicgen" />
         </h3>
         <p>
-          Refract is a JavaScript library which makes makes reactive programming
-          possible in apps using React, React Native, Preact, Inferno, or Redux.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi
+          laboriosam, qui quam sunt dolor?
         </p>
         <p>
-          Reactive programming is a powerful programming paradigm which allows
-          engineers to express complex asynchronous logic flows in a clear and
-          declarative fashion. This can help reduce surface area for bugs,
-          improve code reuse, simplify complex functionality, and make
-          impossible functionality possible.
-        </p>
-        <p>
-          Refract provides an API designed to expose the internals of a typical
-          unidirectional data flow, and make it easy to separate logic from
-          imperative side-effects. It takes care of the hard parts of connecting
-          your reactive programming library to your app, so you can focus on
-          writing your logic instead.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi maiores
+          totam consequuntur iusto perferendis esse nam nesciunt autem,
+          asperiores nihil repellendus nulla eligendi beatae excepturi?
         </p>
         <Small>
-          <Link
-            to="/blog/how-we-harnessed-the-power-of-reactive-programming-with-refract"
-            button
-          >
-            Find Out More
-          </Link>
-          &nbsp;
-          <Link to="https://refract.js.org/" secondary button>
-            Documentation
-          </Link>
-          &nbsp;
-          <Link to="https://github.com/fanduel-oss/refract" secondary button>
+          <Link to="https://github.com/nj2610/MusicGen" secondary button>
             <Icon name="GitHub" /> Code
           </Link>
         </Small>
@@ -73,7 +53,7 @@ const ProjectsPage = () => (
       <WaveSection as="section">
         <h3>
           <QueryImage
-            name="harmony"
+            name="reviews"
             style={{
               display: 'inline-block',
               marginRight: '10px',
@@ -81,35 +61,20 @@ const ProjectsPage = () => (
               width: 64
             }}
           />{' '}
-          Harmony
+          Sentiment Analysis
         </h3>
         <p>
-          Harmony is a Chrome extension which simplifies the Discord interface
-          and adds some useful features.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+          expedita! Cum, velit perferendis rem repellendus doloremque
+          exercitationem tempore voluptas quis.
         </p>
         <p>
-          Discord is a chat application (primarily aimed at gamers) which is
-          used by some major subsections of the programming community. I'm an
-          active member of several of these servers—most notably{' '}
-          <Link to="https://www.reactiflux.com">Reactiflux</Link>—and as a
-          result use Discord daily.
-        </p>
-        <p>
-          The Discord interface has some bugs and slight annoyances which
-          regularly get in the way, and some useful features which would be easy
-          to implement are currently missing. Harmony has been a great way to
-          explore how Chrome extensions are structured while solving these
-          everyday problems!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At delectus,
+          recusandae debitis illo perspiciatis, iure atque itaque sapiente
+          possimus consequuntur dolorem. Ipsam similique quis nesciunt voluptate
+          aut nemo. Voluptatibus, magnam.
         </p>
         <Small>
-          <Link
-            to="https://chrome.google.com/webstore/detail/harmony/jaaoemgmljmlgmpailnhdikgbpffhkkd"
-            secondary
-            button
-          >
-            Web Store
-          </Link>
-          &nbsp;
           <Link to="https://github.com/thisRaptori/harmony" secondary button>
             <Icon name="GitHub" /> Code
           </Link>

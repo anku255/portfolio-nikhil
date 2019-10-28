@@ -33,7 +33,7 @@ const projects = [
     subtitle:
       'Performed Sentiment Analysis on the Imdb movie review dataset using RNNs',
     image: 'reviews',
-    link: 'https://github.com/nj2610/IC_Recognition.'
+    link: 'https://github.com/nj2610/SentimentRNN'
   }
 ];
 
